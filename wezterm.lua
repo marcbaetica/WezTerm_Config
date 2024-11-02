@@ -45,6 +45,9 @@ if wezterm.config_builder then
     config = wezterm.config_builder()
 end
 
+config.default_cwd = wezterm.home_dir .. '/Desktop/Python_projects/Project_euler'
+-- wezterm.log_info(wezterm.home_dir)
+
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Macchiato"
 config.font =
